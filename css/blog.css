@@ -50,8 +50,9 @@ h2 {
   color: #555;
 }
 
-#navbar-brand:focus, #navbar-brand:hover {
+#navbar-brand:focus, #navbar-brand:hover, #navbar-brand:active {
   text-decoration: none;
+  outline: none;
 }
 
 .navbar-default .navbar-brand {
@@ -316,7 +317,9 @@ h2 {
 /* Responsive styling */
 
 @media (max-width: 991px) { 
+
   #subscribe-box h4 {
     text-align: center;
   }
+
  }
