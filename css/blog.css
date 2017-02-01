@@ -291,6 +291,29 @@ h2 {
 
 }
 
+/* Styles for about page */
+
+#about img {
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    float: left;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#about h1 {
+  color: #e74c3c;
+  font-family: "Open Sans";
+  font-weight: 300;
+  padding-top: 45px;
+}
+
+#first-paragraph {
+  clear: both;
+}
+
 
 /*
  * Footer
@@ -305,6 +328,12 @@ h2 {
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+.sticky-footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 /* Site-wide styling*/
