@@ -291,13 +291,12 @@ h2 {
 
 }
 
-/* Styles for about page */
+/* Styles for About page */
 
 #about img {
     margin-right: 30px;
     margin-bottom: 20px;
     border-radius: 50%;
-    float: left;
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -308,10 +307,52 @@ h2 {
   font-family: "Open Sans";
   font-weight: 300;
   padding-top: 45px;
+  font-size: 35px;
 }
 
 #first-paragraph {
   clear: both;
+}
+
+.example {
+    background-color: #eee;
+    float: left;
+    width: 33.33333%;
+    border: 1px solid;
+    height: 300px;
+}
+
+.row-example:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+.example-2 {
+  float: left;
+  width: 33.3333%;
+}
+
+.inner-example {
+  background-color: #eee;
+  border-radius: 5px;
+  margin: 5px;
+  box-shadow: 0 1px 1px #ddd;
+}
+
+.inner-example img {
+  max-width: 98%;
+  margin: 1%;
+}
+
+.inner-example h3 {
+  margin: 5px;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+}
+
+.inner-example p {
+  padding: 5px;
 }
 
 
@@ -349,5 +390,11 @@ h2 {
   #subscribe-box h4 {
     text-align: center;
   }
+ }
 
+ @media (max-width: 767px) { 
+
+  .xs-center, #about h1 {
+    text-align: center;
+  }
  }
